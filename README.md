@@ -1,2 +1,2 @@
-# opics_common
-Code that is depended on by opics-pvoe, opics-inter, and opics
+# optics_common
+ref copy of files never refactored into optics because of remnant dependency by other projects
