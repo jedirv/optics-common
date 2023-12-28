@@ -1,0 +1,78 @@
+Unified MCS OPICS logging
+
+Purposes:
+1. to support easier comprehension by other team members when reading the logs.
+2. to support easier scanning of logs with other tools we write to harvest data for post eval review
+3. to capture relevant thresholds and weights and assumptions made in a particular run
+4. ability to persist evolving data structures as json files that can be tied to particular statements in a logs
+
+
+Design proposal:
+
+Header line specifies:
+    header[0] : version of the MCSLogger
+    header[1] : the flag that starts each line to enable log parsing
+    header[2-n]: what info is in each column
+
+    example header line:
+    # mcslog.v1;_1;TIME;MODULE;PROCESS CONTEXT;LOG LEVEL(D=DEBUG, I=INFO, W=WARNING);WHAT LOGGED;MESSAGE
+
+
+Log statement variants (method signature and how the log appears)
+
+The following are proposed log statement variants to capture key processing aspects of our MCS systems.  Let me know of any additions or other feedback.
+
+assumption:  use this to make explicit in the log any assumptions made.  Emits at INFO level, emits once per run.
+
+    signature:    log_assumption(module, subsystem, context, message)
+usage ex:    log_assumption(__name__,’detector’,'wall discrimination','walls are assumed to be black')
+
+    emits as:    _1;<time>;<calling_module>;detector;wall discrimination;I;assumption;walls are assumed to be black
+
+
+thresholds:  use this log method to make threshold constants appear in the logs.  Emits at INFO level, emits once per run.
+
+    signature:    log_threshold(module, subsystem, context, message)
+    usage ex:    log_threshold(__name__,’detector’,'wall discrimination','wall_min = ' + wall_min)
+
+    emits as:     _1;<time>;<calling_module>;detector;wall discrimination;I;threshold_set;wall_min = 0.24
+
+
+weights:   use these to note weights used to make a decision.   Emits at INFO level.
+
+    signature:    log_weights(module, subsystem, context, weights)
+    usage ex:    log_weights(__name__,’reasoner’, 'physics violation,weights=weights_dict)
+
+    emits as:    _1;<time>;<calling_module>;reasoner;physics violation;I;weights;occlusion=0.32,plaus_entrance=0.78,plaus_exit=0.65
+
+
+findings:   use these to subsystem findings.   Emits at INFO level.
+
+    signature:    log_finding(module, subsystem, context, message)
+    usage ex:    log_finding(__name__,’reasoner’;'plausibility determination',message='implausible due to hovering object’)
+
+    emits as:     _1;<time>;<calling_module>;reasonser; plausibility determination;I;implausible due to hovering object
+
+
+log_math_step:  use these to note steps in a mathematical computation.  Emits at DEBUG level.
+
+    signature:    log_math_step(module, subsystem, context, message)
+    usage ex:    log_math_step(__name__,’detector’,'wall discrimination','size so far ' + cur_size)
+
+    emits as:    _1;<time>;<calling module>;detector, wall discrimination;D;math_step;size so far 0.76
+
+
+log_math_result:   use these to note results of some math.   Emits at INFO level.
+
+    signature:    log_math_result(module, subsystem, context, message)
+    usage ex:    log_math_result(__name__,’detector’,'wall discrimination','average wall height computed as' + ave_wall_height)
+
+    emits as:    _1;<time>;<calling module>;detector;wall discrimination;I;math_result;average wall height computed as 0.59
+
+
+json:   use these to cause a data structure to be stored off in a json file for later analysis/viewing.   Emits at DEBUG level into a sensibly positioned, one-up-named file.  (Not to be used within a loop that runs thousands of times, maybe emits some_maximum number of times)
+
+    signature:    log_json(module, subsystem, context, name, data)
+    usage ex:    log_json(__name__,’detector’,'segmenting objects’,’temp_mask’, temp_mask)
+
+    emits as:    _1;<time>;<calling_module>;detector; segmenting objects;D;json_path=”/home/jedirv/mcs/mcs_opics/mcs_log/op_00002_14/json/temp_mask_28.json

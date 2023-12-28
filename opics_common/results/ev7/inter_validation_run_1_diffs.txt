@@ -1,0 +1,314 @@
+hidtraj
+       match True  hidtraj_val7_0001_01_zz_7v_stdout.txt opics_interactive_validation_trajectory_0001_01_stdout.log 
+       match True  hidtraj_val7_0001_02_zz_7v_stdout.txt opics_interactive_validation_trajectory_0001_02_stdout.log 
+       match True  hidtraj_val7_0001_03_zz_7v_stdout.txt opics_interactive_validation_trajectory_0001_03_stdout.log 
+       match True  hidtraj_val7_0001_04_zz_7v_stdout.txt opics_interactive_validation_trajectory_0001_04_stdout.log 
+       match True  hidtraj_val7_0001_05_zz_7v_stdout.txt opics_interactive_validation_trajectory_0001_05_stdout.log 
+       match True  hidtraj_val7_0001_06_zz_7v_stdout.txt opics_interactive_validation_trajectory_0001_06_stdout.log 
+       match True  hidtraj_val7_0001_07_zz_7v_stdout.txt opics_interactive_validation_trajectory_0001_07_stdout.log 
+       match True  hidtraj_val7_0001_08_zz_7v_stdout.txt opics_interactive_validation_trajectory_0001_08_stdout.log 
+       match True  hidtraj_val7_0001_09_zz_7v_stdout.txt opics_interactive_validation_trajectory_0001_09_stdout.log 
+       match True  hidtraj_val7_0001_10_zz_7v_stdout.txt opics_interactive_validation_trajectory_0001_10_stdout.log 
+       match True  hidtraj_val7_0001_11_zz_7v_stdout.txt opics_interactive_validation_trajectory_0001_11_stdout.log 
+       match True  hidtraj_val7_0001_12_zz_7v_stdout.txt opics_interactive_validation_trajectory_0001_12_stdout.log 
+tool
+       DIFFERENCE: tool_val7_0001_11_zz_7v_stdout.txt:True   opics_interactive_validation_tool_use_0001_11_stdout.log:error
+       DIFFERENCE: tool_val7_0001_13_zz_7v_stdout.txt:True   opics_interactive_validation_tool_use_0001_13_stdout.log:error
+       match False  tool_val7_0001_15_zz_7v_stdout.txt opics_interactive_validation_tool_use_0001_15_stdout.log 
+       match False  tool_val7_0001_17_zz_7v_stdout.txt opics_interactive_validation_tool_use_0001_17_stdout.log 
+       DIFFERENCE: tool_val7_0001_23_zz_7v_stdout.txt:True   opics_interactive_validation_tool_use_0001_23_stdout.log:error
+       DIFFERENCE: tool_val7_0001_24_zz_7v_stdout.txt:True   opics_interactive_validation_tool_use_0001_24_stdout.log:error
+       match False  tool_val7_0001_25_zz_7v_stdout.txt opics_interactive_validation_tool_use_0001_25_stdout.log 
+       match False  tool_val7_0001_26_zz_7v_stdout.txt opics_interactive_validation_tool_use_0001_26_stdout.log 
+       DIFFERENCE: tool_val7_0001_29_zz_7v_stdout.txt:True   opics_interactive_validation_tool_use_0001_29_stdout.log:error
+       DIFFERENCE: tool_val7_0001_30_zz_7v_stdout.txt:True   opics_interactive_validation_tool_use_0001_30_stdout.log:error
+       match True  tool_val7_0001_31_zz_7v_stdout.txt opics_interactive_validation_tool_use_0001_31_stdout.log 
+       match False  tool_val7_0001_32_zz_7v_stdout.txt opics_interactive_validation_tool_use_0001_32_stdout.log 
+       match True  tool_val7_0001_35_zz_7v_stdout.txt opics_interactive_validation_tool_use_0001_35_stdout.log 
+       match False  tool_val7_0001_36_zz_7v_stdout.txt opics_interactive_validation_tool_use_0001_36_stdout.log 
+suprel
+       match True  suprel_val7_0001_01_zz_7v_stdout.txt opics_interactive_validation_support_relations_0001_01_stdout.log 
+       match True  suprel_val7_0001_02_zz_7v_stdout.txt opics_interactive_validation_support_relations_0001_02_stdout.log 
+       match True  suprel_val7_0001_03_zz_7v_stdout.txt opics_interactive_validation_support_relations_0001_03_stdout.log 
+       match True  suprel_val7_0001_04_zz_7v_stdout.txt opics_interactive_validation_support_relations_0001_04_stdout.log 
+       match True  suprel_val7_0001_05_zz_7v_stdout.txt opics_interactive_validation_support_relations_0001_05_stdout.log 
+       match True  suprel_val7_0001_06_zz_7v_stdout.txt opics_interactive_validation_support_relations_0001_06_stdout.log 
+       match True  suprel_val7_0001_07_zz_7v_stdout.txt opics_interactive_validation_support_relations_0001_07_stdout.log 
+       match True  suprel_val7_0001_08_zz_7v_stdout.txt opics_interactive_validation_support_relations_0001_08_stdout.log 
+       match True  suprel_val7_0001_09_zz_7v_stdout.txt opics_interactive_validation_support_relations_0001_09_stdout.log 
+       match False  suprel_val7_0001_10_zz_7v_stdout.txt opics_interactive_validation_support_relations_0001_10_stdout.log 
+       match False  suprel_val7_0001_11_zz_7v_stdout.txt opics_interactive_validation_support_relations_0001_11_stdout.log 
+       match False  suprel_val7_0001_12_zz_7v_stdout.txt opics_interactive_validation_support_relations_0001_12_stdout.log 
+reor
+       match True  reor_val7_0001_01_zz_7v_stdout.txt opics_interactive_validation_spatial_reorientation_0001_01_stdout.log 
+       match False  reor_val7_0001_02_zz_7v_stdout.txt opics_interactive_validation_spatial_reorientation_0001_02_stdout.log 
+       match True  reor_val7_0001_03_zz_7v_stdout.txt opics_interactive_validation_spatial_reorientation_0001_03_stdout.log 
+       match True  reor_val7_0001_04_zz_7v_stdout.txt opics_interactive_validation_spatial_reorientation_0001_04_stdout.log 
+       match True  reor_val7_0001_05_zz_7v_stdout.txt opics_interactive_validation_spatial_reorientation_0001_05_stdout.log 
+       match True  reor_val7_0001_06_zz_7v_stdout.txt opics_interactive_validation_spatial_reorientation_0001_06_stdout.log 
+       match True  reor_val7_0001_07_zz_7v_stdout.txt opics_interactive_validation_spatial_reorientation_0001_07_stdout.log 
+       match False  reor_val7_0001_08_zz_7v_stdout.txt opics_interactive_validation_spatial_reorientation_0001_08_stdout.log 
+       match True  reor_val7_0001_09_zz_7v_stdout.txt opics_interactive_validation_spatial_reorientation_0001_09_stdout.log 
+       match True  reor_val7_0001_10_zz_7v_stdout.txt opics_interactive_validation_spatial_reorientation_0001_10_stdout.log 
+       match True  reor_val7_0001_11_zz_7v_stdout.txt opics_interactive_validation_spatial_reorientation_0001_11_stdout.log 
+       match True  reor_val7_0001_12_zz_7v_stdout.txt opics_interactive_validation_spatial_reorientation_0001_12_stdout.log 
+       match False  reor_val7_0001_36_zz_7v_stdout.txt opics_interactive_validation_spatial_reorientation_0001_36_stdout.log 
+spatref
+       match False  spatref_val7_0001_01_zz_7v_stdout.txt opics_interactive_validation_spatial_reference_0001_01_stdout.log 
+       match False  spatref_val7_0001_02_zz_7v_stdout.txt opics_interactive_validation_spatial_reference_0001_02_stdout.log 
+       match False  spatref_val7_0001_03_zz_7v_stdout.txt opics_interactive_validation_spatial_reference_0001_03_stdout.log 
+       match False  spatref_val7_0001_04_zz_7v_stdout.txt opics_interactive_validation_spatial_reference_0001_04_stdout.log 
+       match False  spatref_val7_0001_05_zz_7v_stdout.txt opics_interactive_validation_spatial_reference_0001_05_stdout.log 
+       match False  spatref_val7_0001_06_zz_7v_stdout.txt opics_interactive_validation_spatial_reference_0001_06_stdout.log 
+       match False  spatref_val7_0001_07_zz_7v_stdout.txt opics_interactive_validation_spatial_reference_0001_07_stdout.log 
+       match False  spatref_val7_0001_08_zz_7v_stdout.txt opics_interactive_validation_spatial_reference_0001_08_stdout.log 
+       match False  spatref_val7_0001_09_zz_7v_stdout.txt opics_interactive_validation_spatial_reference_0001_09_stdout.log 
+       match False  spatref_val7_0001_10_zz_7v_stdout.txt opics_interactive_validation_spatial_reference_0001_10_stdout.log 
+       match False  spatref_val7_0001_11_zz_7v_stdout.txt opics_interactive_validation_spatial_reference_0001_11_stdout.log 
+       match False  spatref_val7_0001_12_zz_7v_stdout.txt opics_interactive_validation_spatial_reference_0001_12_stdout.log 
+       match error  spatref_val7_0001_25_zz_7v_stdout.txt opics_interactive_validation_spatial_reference_0001_25_stdout.log 
+       DIFFERENCE: spatref_val7_0001_26_zz_7v_stdout.txt:error   opics_interactive_validation_spatial_reference_0001_26_stdout.log:False
+       match error  spatref_val7_0001_27_zz_7v_stdout.txt opics_interactive_validation_spatial_reference_0001_27_stdout.log 
+       DIFFERENCE: spatref_val7_0001_28_zz_7v_stdout.txt:error   opics_interactive_validation_spatial_reference_0001_28_stdout.log:False
+spelim
+       match True  spelim_val7_0001_01_zz_7v_stdout.txt opics_interactive_validation_spatial_elimination_0001_01_stdout.log 
+       match True  spelim_val7_0001_02_zz_7v_stdout.txt opics_interactive_validation_spatial_elimination_0001_02_stdout.log 
+       match True  spelim_val7_0001_03_zz_7v_stdout.txt opics_interactive_validation_spatial_elimination_0001_03_stdout.log 
+       match True  spelim_val7_0001_04_zz_7v_stdout.txt opics_interactive_validation_spatial_elimination_0001_04_stdout.log 
+       match True  spelim_val7_0001_05_zz_7v_stdout.txt opics_interactive_validation_spatial_elimination_0001_05_stdout.log 
+       match True  spelim_val7_0001_06_zz_7v_stdout.txt opics_interactive_validation_spatial_elimination_0001_06_stdout.log 
+       match True  spelim_val7_0001_07_zz_7v_stdout.txt opics_interactive_validation_spatial_elimination_0001_07_stdout.log 
+       match True  spelim_val7_0001_08_zz_7v_stdout.txt opics_interactive_validation_spatial_elimination_0001_08_stdout.log 
+solid
+       match True  solid_val7_0001_01_zz_7v_stdout.txt opics_interactive_validation_solidity_0001_01_stdout.log 
+       match error  solid_val7_0001_02_zz_7v_stdout.txt opics_interactive_validation_solidity_0001_02_stdout.log 
+       match error  solid_val7_0001_04_zz_7v_stdout.txt opics_interactive_validation_solidity_0001_04_stdout.log 
+       match True  solid_val7_0001_05_zz_7v_stdout.txt opics_interactive_validation_solidity_0001_05_stdout.log 
+       match error  solid_val7_0001_06_zz_7v_stdout.txt opics_interactive_validation_solidity_0001_06_stdout.log 
+shell
+       match True  shell_val7_0001_01_zz_7v_stdout.txt opics_interactive_validation_shell_game_0001_01_stdout.log 
+       match True  shell_val7_0001_02_zz_7v_stdout.txt opics_interactive_validation_shell_game_0001_02_stdout.log 
+       match True  shell_val7_0001_03_zz_7v_stdout.txt opics_interactive_validation_shell_game_0001_03_stdout.log 
+       match True  shell_val7_0001_04_zz_7v_stdout.txt opics_interactive_validation_shell_game_0001_04_stdout.log 
+       match True  shell_val7_0001_05_zz_7v_stdout.txt opics_interactive_validation_shell_game_0001_05_stdout.log 
+       match True  shell_val7_0001_06_zz_7v_stdout.txt opics_interactive_validation_shell_game_0001_06_stdout.log 
+       match True  shell_val7_0001_07_zz_7v_stdout.txt opics_interactive_validation_shell_game_0001_07_stdout.log 
+       match True  shell_val7_0001_08_zz_7v_stdout.txt opics_interactive_validation_shell_game_0001_08_stdout.log 
+       match True  shell_val7_0001_09_zz_7v_stdout.txt opics_interactive_validation_shell_game_0001_09_stdout.log 
+       match True  shell_val7_0001_10_zz_7v_stdout.txt opics_interactive_validation_shell_game_0001_10_stdout.log 
+       match True  shell_val7_0001_11_zz_7v_stdout.txt opics_interactive_validation_shell_game_0001_11_stdout.log 
+       match True  shell_val7_0001_12_zz_7v_stdout.txt opics_interactive_validation_shell_game_0001_12_stdout.log 
+hsetrot
+       DIFFERENCE: hsetrot_val7_0001_03_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_03_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_04_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_04_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_07_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_07_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_08_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_08_stdout.log:False
+       DIFFERENCE: hsetrot_val7_0001_11_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_11_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_12_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_12_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_15_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_15_stdout.log:False
+       DIFFERENCE: hsetrot_val7_0001_16_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_16_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_19_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_19_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_20_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_20_stdout.log:False
+       DIFFERENCE: hsetrot_val7_0001_23_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_23_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_24_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_24_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_27_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_27_stdout.log:True
+       DIFFERENCE: hsetrot_val7_0001_28_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_28_stdout.log:False
+       DIFFERENCE: hsetrot_val7_0001_31_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_31_stdout.log:True
+       DIFFERENCE: hsetrot_val7_0001_32_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_32_stdout.log:True
+       DIFFERENCE: hsetrot_val7_0001_35_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_35_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_36_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_36_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_39_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_39_stdout.log:False
+       DIFFERENCE: hsetrot_val7_0001_40_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_40_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_43_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_43_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_44_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_44_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_47_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_47_stdout.log:True
+       DIFFERENCE: hsetrot_val7_0001_48_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_48_stdout.log:False
+       DIFFERENCE: hsetrot_val7_0001_51_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_51_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_52_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_52_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_55_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_55_stdout.log:False
+       DIFFERENCE: hsetrot_val7_0001_56_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_56_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_59_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_59_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_60_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_60_stdout.log:error
+       DIFFERENCE: hsetrot_val7_0001_63_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_63_stdout.log:True
+       DIFFERENCE: hsetrot_val7_0001_64_zz_7v_stdout.txt:???   opics_interactive_validation_set_rotation_0001_64_stdout.log:False
+setrot
+       match True  setrot_val7_0001_01_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_01_stdout.log 
+       match True  setrot_val7_0001_02_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_02_stdout.log 
+       match True  setrot_val7_0001_05_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_05_stdout.log 
+       match True  setrot_val7_0001_06_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_06_stdout.log 
+       match True  setrot_val7_0001_09_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_09_stdout.log 
+       match True  setrot_val7_0001_10_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_10_stdout.log 
+       match True  setrot_val7_0001_13_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_13_stdout.log 
+       match True  setrot_val7_0001_14_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_14_stdout.log 
+       match True  setrot_val7_0001_17_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_17_stdout.log 
+       match True  setrot_val7_0001_18_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_18_stdout.log 
+       match True  setrot_val7_0001_21_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_21_stdout.log 
+       match error  setrot_val7_0001_22_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_22_stdout.log 
+       match True  setrot_val7_0001_25_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_25_stdout.log 
+       match True  setrot_val7_0001_26_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_26_stdout.log 
+       match True  setrot_val7_0001_29_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_29_stdout.log 
+       match error  setrot_val7_0001_30_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_30_stdout.log 
+       match error  setrot_val7_0001_33_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_33_stdout.log 
+       match True  setrot_val7_0001_34_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_34_stdout.log 
+       match True  setrot_val7_0001_37_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_37_stdout.log 
+       match True  setrot_val7_0001_38_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_38_stdout.log 
+       match error  setrot_val7_0001_41_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_41_stdout.log 
+       match True  setrot_val7_0001_42_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_42_stdout.log 
+       match True  setrot_val7_0001_45_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_45_stdout.log 
+       match True  setrot_val7_0001_46_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_46_stdout.log 
+       match error  setrot_val7_0001_49_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_49_stdout.log 
+       DIFFERENCE: setrot_val7_0001_50_zz_7v_stdout.txt:False   opics_interactive_validation_set_rotation_0001_50_stdout.log:True
+       match True  setrot_val7_0001_53_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_53_stdout.log 
+       match True  setrot_val7_0001_54_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_54_stdout.log 
+       match error  setrot_val7_0001_57_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_57_stdout.log 
+       match True  setrot_val7_0001_58_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_58_stdout.log 
+       match True  setrot_val7_0001_61_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_61_stdout.log 
+       match True  setrot_val7_0001_62_zz_7v_stdout.txt opics_interactive_validation_set_rotation_0001_62_stdout.log 
+mtool
+WARNING - dir /home/ubuntu/eval6_systest/inter/versions/101823_val7/stdout_logs/mtool does not exist
+ramps
+       match True  ramps_val7_0001_01_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_01_stdout.log 
+       match True  ramps_val7_0001_02_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_02_stdout.log 
+       match True  ramps_val7_0001_03_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_03_stdout.log 
+       match True  ramps_val7_0001_04_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_04_stdout.log 
+       match True  ramps_val7_0001_05_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_05_stdout.log 
+       match True  ramps_val7_0001_06_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_06_stdout.log 
+       match True  ramps_val7_0001_07_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_07_stdout.log 
+       match True  ramps_val7_0001_08_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_08_stdout.log 
+       match True  ramps_val7_0001_09_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_09_stdout.log 
+       match True  ramps_val7_0001_10_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_10_stdout.log 
+       match True  ramps_val7_0001_11_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_11_stdout.log 
+       match True  ramps_val7_0001_12_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_12_stdout.log 
+       match True  ramps_val7_0001_13_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_13_stdout.log 
+       match True  ramps_val7_0001_14_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_14_stdout.log 
+       match True  ramps_val7_0001_15_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_15_stdout.log 
+       match True  ramps_val7_0001_16_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_16_stdout.log 
+       match True  ramps_val7_0001_17_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_17_stdout.log 
+       match True  ramps_val7_0001_18_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_18_stdout.log 
+       match True  ramps_val7_0001_19_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_19_stdout.log 
+       match True  ramps_val7_0001_20_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_20_stdout.log 
+       match True  ramps_val7_0001_21_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_21_stdout.log 
+       match True  ramps_val7_0001_22_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_22_stdout.log 
+       match True  ramps_val7_0001_23_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_23_stdout.log 
+       match True  ramps_val7_0001_24_zz_7v_stdout.txt opics_interactive_validation_ramps_0001_24_stdout.log 
+occl
+       match True  occl_val7_0001_01_zz_7v_stdout.txt opics_interactive_validation_occluders_0001_01_stdout.log 
+       match True  occl_val7_0001_03_zz_7v_stdout.txt opics_interactive_validation_occluders_0001_03_stdout.log 
+       match True  occl_val7_0001_05_zz_7v_stdout.txt opics_interactive_validation_occluders_0001_05_stdout.log 
+       match True  occl_val7_0001_07_zz_7v_stdout.txt opics_interactive_validation_occluders_0001_07_stdout.log 
+       match True  occl_val7_0001_11_zz_7v_stdout.txt opics_interactive_validation_occluders_0001_11_stdout.log 
+       match True  occl_val7_0001_13_zz_7v_stdout.txt opics_interactive_validation_occluders_0001_13_stdout.log 
+       match True  occl_val7_0001_15_zz_7v_stdout.txt opics_interactive_validation_occluders_0001_15_stdout.log 
+       match True  occl_val7_0001_17_zz_7v_stdout.txt opics_interactive_validation_occluders_0001_17_stdout.log 
+       match True  occl_val7_0001_19_zz_7v_stdout.txt opics_interactive_validation_occluders_0001_19_stdout.log 
+       match True  occl_val7_0001_21_zz_7v_stdout.txt opics_interactive_validation_occluders_0001_21_stdout.log 
+       match True  occl_val7_0001_23_zz_7v_stdout.txt opics_interactive_validation_occluders_0001_23_stdout.log 
+iop
+       match True  iop_val7_0001_01_zz_7v_stdout.txt opics_interactive_validation_object_permanence_0001_01_stdout.log 
+       match True  iop_val7_0001_02_zz_7v_stdout.txt opics_interactive_validation_object_permanence_0001_02_stdout.log 
+       match True  iop_val7_0001_03_zz_7v_stdout.txt opics_interactive_validation_object_permanence_0001_03_stdout.log 
+       match True  iop_val7_0001_04_zz_7v_stdout.txt opics_interactive_validation_object_permanence_0001_04_stdout.log 
+       match True  iop_val7_0001_05_zz_7v_stdout.txt opics_interactive_validation_object_permanence_0001_05_stdout.log 
+       match True  iop_val7_0001_06_zz_7v_stdout.txt opics_interactive_validation_object_permanence_0001_06_stdout.log 
+movtarg
+       DIFFERENCE: movtarg_val7_0001_01_zz_7v_stdout.txt:True   opics_interactive_validation_moving_target_prediction_0001_01_stdout.log:error
+       DIFFERENCE: movtarg_val7_0001_02_zz_7v_stdout.txt:True   opics_interactive_validation_moving_target_prediction_0001_02_stdout.log:error
+       match True  movtarg_val7_0001_03_zz_7v_stdout.txt opics_interactive_validation_moving_target_prediction_0001_03_stdout.log 
+       match True  movtarg_val7_0001_04_zz_7v_stdout.txt opics_interactive_validation_moving_target_prediction_0001_04_stdout.log 
+       DIFFERENCE: movtarg_val7_0001_05_zz_7v_stdout.txt:True   opics_interactive_validation_moving_target_prediction_0001_05_stdout.log:error
+       DIFFERENCE: movtarg_val7_0001_06_zz_7v_stdout.txt:True   opics_interactive_validation_moving_target_prediction_0001_06_stdout.log:error
+       match True  movtarg_val7_0001_07_zz_7v_stdout.txt opics_interactive_validation_moving_target_prediction_0001_07_stdout.log 
+       match True  movtarg_val7_0001_08_zz_7v_stdout.txt opics_interactive_validation_moving_target_prediction_0001_08_stdout.log 
+       DIFFERENCE: movtarg_val7_0001_09_zz_7v_stdout.txt:True   opics_interactive_validation_moving_target_prediction_0001_09_stdout.log:error
+       DIFFERENCE: movtarg_val7_0001_10_zz_7v_stdout.txt:True   opics_interactive_validation_moving_target_prediction_0001_10_stdout.log:error
+       match True  movtarg_val7_0001_11_zz_7v_stdout.txt opics_interactive_validation_moving_target_prediction_0001_11_stdout.log 
+       match True  movtarg_val7_0001_12_zz_7v_stdout.txt opics_interactive_validation_moving_target_prediction_0001_12_stdout.log 
+lava
+       match True  lava_val7_0001_01_zz_7v_stdout.txt opics_interactive_validation_lava_0001_01_stdout.log 
+       match True  lava_val7_0001_02_zz_7v_stdout.txt opics_interactive_validation_lava_0001_02_stdout.log 
+       DIFFERENCE: lava_val7_0001_03_zz_7v_stdout.txt:True   opics_interactive_validation_lava_0001_03_stdout.log:error
+       DIFFERENCE: lava_val7_0001_04_zz_7v_stdout.txt:True   opics_interactive_validation_lava_0001_04_stdout.log:error
+       match True  lava_val7_0001_05_zz_7v_stdout.txt opics_interactive_validation_lava_0001_05_stdout.log 
+       match True  lava_val7_0001_06_zz_7v_stdout.txt opics_interactive_validation_lava_0001_06_stdout.log 
+       match True  lava_val7_0001_07_zz_7v_stdout.txt opics_interactive_validation_lava_0001_07_stdout.log 
+       match True  lava_val7_0001_08_zz_7v_stdout.txt opics_interactive_validation_lava_0001_08_stdout.log 
+       DIFFERENCE: lava_val7_0001_09_zz_7v_stdout.txt:True   opics_interactive_validation_lava_0001_09_stdout.log:error
+       DIFFERENCE: lava_val7_0001_10_zz_7v_stdout.txt:True   opics_interactive_validation_lava_0001_10_stdout.log:error
+       match True  lava_val7_0001_11_zz_7v_stdout.txt opics_interactive_validation_lava_0001_11_stdout.log 
+       match True  lava_val7_0001_12_zz_7v_stdout.txt opics_interactive_validation_lava_0001_12_stdout.log 
+       match True  lava_val7_0001_13_zz_7v_stdout.txt opics_interactive_validation_lava_0001_13_stdout.log 
+       match True  lava_val7_0001_14_zz_7v_stdout.txt opics_interactive_validation_lava_0001_14_stdout.log 
+       match True  lava_val7_0001_15_zz_7v_stdout.txt opics_interactive_validation_lava_0001_15_stdout.log 
+       match True  lava_val7_0001_16_zz_7v_stdout.txt opics_interactive_validation_lava_0001_16_stdout.log 
+       match True  lava_val7_0001_17_zz_7v_stdout.txt opics_interactive_validation_lava_0001_17_stdout.log 
+       match True  lava_val7_0001_18_zz_7v_stdout.txt opics_interactive_validation_lava_0001_18_stdout.log 
+       match True  lava_val7_0001_19_zz_7v_stdout.txt opics_interactive_validation_lava_0001_19_stdout.log 
+       match True  lava_val7_0001_20_zz_7v_stdout.txt opics_interactive_validation_lava_0001_20_stdout.log 
+       DIFFERENCE: lava_val7_0001_21_zz_7v_stdout.txt:True   opics_interactive_validation_lava_0001_21_stdout.log:error
+       DIFFERENCE: lava_val7_0001_22_zz_7v_stdout.txt:True   opics_interactive_validation_lava_0001_22_stdout.log:error
+       match True  lava_val7_0001_23_zz_7v_stdout.txt opics_interactive_validation_lava_0001_23_stdout.log 
+       match True  lava_val7_0001_24_zz_7v_stdout.txt opics_interactive_validation_lava_0001_24_stdout.log 
+kagents
+Error - no matching file found for kagents_val7_0001_01_zz_7v_stdout.txt
+Error - no matching file found for kagents_val7_0001_02_zz_7v_stdout.txt
+Error - no matching file found for kagents_val7_0001_03_zz_7v_stdout.txt
+Error - no matching file found for kagents_val7_0001_04_zz_7v_stdout.txt
+Error - no matching file found for kagents_val7_0001_05_zz_7v_stdout.txt
+Error - no matching file found for kagents_val7_0001_06_zz_7v_stdout.txt
+Error - no matching file found for kagents_val7_0001_07_zz_7v_stdout.txt
+Error - no matching file found for kagents_val7_0001_08_zz_7v_stdout.txt
+imit
+       match True  imit_val7_0001_01_zz_7v_stdout.txt opics_interactive_validation_imitation_0001_01_stdout.log 
+       match True  imit_val7_0001_02_zz_7v_stdout.txt opics_interactive_validation_imitation_0001_02_stdout.log 
+       match error  imit_val7_0001_03_zz_7v_stdout.txt opics_interactive_validation_imitation_0001_03_stdout.log 
+       match True  imit_val7_0001_07_zz_7v_stdout.txt opics_interactive_validation_imitation_0001_07_stdout.log 
+       match True  imit_val7_0001_08_zz_7v_stdout.txt opics_interactive_validation_imitation_0001_08_stdout.log 
+       match True  imit_val7_0001_09_zz_7v_stdout.txt opics_interactive_validation_imitation_0001_09_stdout.log 
+holes
+       match True  holes_val7_0001_01_zz_7v_stdout.txt opics_interactive_validation_holes_0001_01_stdout.log 
+       match True  holes_val7_0001_02_zz_7v_stdout.txt opics_interactive_validation_holes_0001_02_stdout.log 
+       match True  holes_val7_0001_03_zz_7v_stdout.txt opics_interactive_validation_holes_0001_03_stdout.log 
+       match True  holes_val7_0001_04_zz_7v_stdout.txt opics_interactive_validation_holes_0001_04_stdout.log 
+       match True  holes_val7_0001_05_zz_7v_stdout.txt opics_interactive_validation_holes_0001_05_stdout.log 
+       match True  holes_val7_0001_06_zz_7v_stdout.txt opics_interactive_validation_holes_0001_06_stdout.log 
+       match True  holes_val7_0001_07_zz_7v_stdout.txt opics_interactive_validation_holes_0001_07_stdout.log 
+       match True  holes_val7_0001_08_zz_7v_stdout.txt opics_interactive_validation_holes_0001_08_stdout.log 
+       match True  holes_val7_0001_09_zz_7v_stdout.txt opics_interactive_validation_holes_0001_09_stdout.log 
+       match True  holes_val7_0001_10_zz_7v_stdout.txt opics_interactive_validation_holes_0001_10_stdout.log 
+       DIFFERENCE: holes_val7_0001_11_zz_7v_stdout.txt:True   opics_interactive_validation_holes_0001_11_stdout.log:False
+       match True  holes_val7_0001_12_zz_7v_stdout.txt opics_interactive_validation_holes_0001_12_stdout.log 
+       match True  holes_val7_0001_13_zz_7v_stdout.txt opics_interactive_validation_holes_0001_13_stdout.log 
+       match True  holes_val7_0001_14_zz_7v_stdout.txt opics_interactive_validation_holes_0001_14_stdout.log 
+       match True  holes_val7_0001_15_zz_7v_stdout.txt opics_interactive_validation_holes_0001_15_stdout.log 
+       match True  holes_val7_0001_16_zz_7v_stdout.txt opics_interactive_validation_holes_0001_16_stdout.log 
+       match True  holes_val7_0001_17_zz_7v_stdout.txt opics_interactive_validation_holes_0001_17_stdout.log 
+       match True  holes_val7_0001_18_zz_7v_stdout.txt opics_interactive_validation_holes_0001_18_stdout.log 
+       match True  holes_val7_0001_19_zz_7v_stdout.txt opics_interactive_validation_holes_0001_19_stdout.log 
+       match True  holes_val7_0001_20_zz_7v_stdout.txt opics_interactive_validation_holes_0001_20_stdout.log 
+       match True  holes_val7_0001_21_zz_7v_stdout.txt opics_interactive_validation_holes_0001_21_stdout.log 
+       match False  holes_val7_0001_22_zz_7v_stdout.txt opics_interactive_validation_holes_0001_22_stdout.log 
+       DIFFERENCE: holes_val7_0001_23_zz_7v_stdout.txt:False   opics_interactive_validation_holes_0001_23_stdout.log:True
+       DIFFERENCE: holes_val7_0001_24_zz_7v_stdout.txt:False   opics_interactive_validation_holes_0001_24_stdout.log:True
+cont
+       match True  cont_val7_0001_01_zz_7v_stdout.txt opics_interactive_validation_containers_0001_01_stdout.log 
+       match True  cont_val7_0001_03_zz_7v_stdout.txt opics_interactive_validation_containers_0001_03_stdout.log 
+       match True  cont_val7_0001_05_zz_7v_stdout.txt opics_interactive_validation_containers_0001_05_stdout.log 
+       match True  cont_val7_0001_07_zz_7v_stdout.txt opics_interactive_validation_containers_0001_07_stdout.log 
+       match True  cont_val7_0001_09_zz_7v_stdout.txt opics_interactive_validation_containers_0001_09_stdout.log 
+       match True  cont_val7_0001_11_zz_7v_stdout.txt opics_interactive_validation_containers_0001_11_stdout.log 
+coltraj
+       match True  coltraj_val7_0001_01_zz_7v_stdout.txt opics_interactive_validation_collisions_0001_01_stdout.log 
+       match True  coltraj_val7_0001_02_zz_7v_stdout.txt opics_interactive_validation_collisions_0001_02_stdout.log 
+       DIFFERENCE: coltraj_val7_0001_03_zz_7v_stdout.txt:False   opics_interactive_validation_collisions_0001_03_stdout.log:error
+       DIFFERENCE: coltraj_val7_0001_04_zz_7v_stdout.txt:False   opics_interactive_validation_collisions_0001_04_stdout.log:error
+       match True  coltraj_val7_0001_05_zz_7v_stdout.txt opics_interactive_validation_collisions_0001_05_stdout.log 
+       match True  coltraj_val7_0001_06_zz_7v_stdout.txt opics_interactive_validation_collisions_0001_06_stdout.log 
+       match True  coltraj_val7_0001_07_zz_7v_stdout.txt opics_interactive_validation_collisions_0001_07_stdout.log 
+       match True  coltraj_val7_0001_08_zz_7v_stdout.txt opics_interactive_validation_collisions_0001_08_stdout.log 
+       match True  coltraj_val7_0001_09_zz_7v_stdout.txt opics_interactive_validation_collisions_0001_09_stdout.log 
+Error - no matching file found for coltraj_val7_0001_10_zz_7v_stdout.txt
+       DIFFERENCE: coltraj_val7_0001_11_zz_7v_stdout.txt:False   opics_interactive_validation_collisions_0001_11_stdout.log:error
+       DIFFERENCE: coltraj_val7_0001_12_zz_7v_stdout.txt:False   opics_interactive_validation_collisions_0001_12_stdout.log:error
+       match True  coltraj_val7_0001_13_zz_7v_stdout.txt opics_interactive_validation_collisions_0001_13_stdout.log 
+       match True  coltraj_val7_0001_14_zz_7v_stdout.txt opics_interactive_validation_collisions_0001_14_stdout.log 
+       match True  coltraj_val7_0001_15_zz_7v_stdout.txt opics_interactive_validation_collisions_0001_15_stdout.log 

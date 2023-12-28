@@ -1,0 +1,8 @@
+name: env_opics_common
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.7.13
+  # issue with lower version of poetry, require to upgrade to >=1.1.14 https://github.com/python-poetry/poetry/issues/6300#issuecomment-1234470634
+  - poetry=1.1.14
